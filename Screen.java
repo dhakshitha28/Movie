@@ -17,7 +17,7 @@ public abstract class Screen implements ScreenInterface{
     public void setBookingId(String bookingId) {
         this.bookingId = bookingId;
     }
-
+    
     public int getTicketPrice() {
         return ticketPrice;
     }
@@ -95,5 +95,6 @@ public abstract class Screen implements ScreenInterface{
         else {
             System.out.println("No Discount");
         }
+
     }
 }

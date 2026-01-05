@@ -6,5 +6,4 @@ public class SilverScreen extends Screen implements SilverScreenInterface{
         this.setConvenienceFee(convenienceFee);
         this.setViewer(viewer);
     }
-
 }
